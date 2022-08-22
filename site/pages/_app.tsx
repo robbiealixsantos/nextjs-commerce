@@ -19,7 +19,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <> 
-      <Script id="tiktok-base-code" strategy="beforeInteractive" 
+      <Script id="tiktok-base-code" strategy="afterInteractive" 
         dangerouslySetInnerHTML={{
           __html: `
           !function (w, d, t) {
