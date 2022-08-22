@@ -19,9 +19,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <> 
-      <Script>
-        id="tiktok-base-code"
-        strategy="afterInteractive"
+      <Script id="tiktok-base-code" strategy="afterInteractive" 
         dangerouslySetInnerHTML={{
           __html: `
           !function (w, d, t) {
@@ -32,7 +30,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           }(window, document, 'ttq');
           `,
         }}
-      </Script>
+      />
       <Head />
       <ManagedUIContext>
         <Layout pageProps={pageProps}>
