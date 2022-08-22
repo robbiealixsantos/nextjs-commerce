@@ -20,7 +20,7 @@ const HomeAllProductsGrid: FC<Props> = ({
   return (
     <script>
       ttq.track('ViewContent');
-    <script/>
+    </script>
     <div className={s.root}>
       <div className={s.asideWrapper}>
         <div className={s.aside}>
