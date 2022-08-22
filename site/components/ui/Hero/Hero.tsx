@@ -13,6 +13,7 @@ const Hero: FC<HeroProps> = ({ headline, description }) => {
   return (
     <div className="bg-accent-9 border-b border-t border-accent-2">
       <Container>
+        <script>ttq.track("ViewContent");</script>
         <div className={s.root}>
           <h2 className={s.title}>{headline}</h2>
           <div className={s.description}>
