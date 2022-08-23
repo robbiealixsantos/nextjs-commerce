@@ -45,6 +45,12 @@ export default function Home({
       strategy="afterInteractive" 
       dangerouslySetInnerHTML={{
         __html: `
+        
+          ttq.identify({
+            email: "robbie@robbie.com",
+            phone_number: "+14153334444"
+          });
+
           ttq.track("ViewContent");
         `,
       }}
