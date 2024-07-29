@@ -58,16 +58,10 @@
         },
         {
           "id": "option-size",
-          "displayName": "Size",
+          "displayName": "Size - One Size Fits All",
           "values": [
             {
-              "label": "S"
-            },
-            {
-              "label": "M"
-            },
-            {
-              "label": "L"
+              "label": "Add To Cart"
             }
           ]
         }
